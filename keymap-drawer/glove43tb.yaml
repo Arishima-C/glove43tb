@@ -46,19 +46,19 @@ layers:
   - DEL
   FUNCTION:
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - KP 7
+  - KP 8
+  - KP 9
   - {t: ▽, type: trans}
   - F1
   - F2
   - F3
   - F4
   - F5
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - KP NUM
+  - KP 4
+  - KP 5
+  - KP 6
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - F13
@@ -67,10 +67,10 @@ layers:
   - F8
   - F9
   - F10
-  - LEFT SHIFT
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {t: KP 0, h: LEFT SHIFT}
+  - KP 1
+  - KP 2
+  - KP 3
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -90,9 +90,9 @@ layers:
   - F12
   NUM:
   - '-'
-  - KP 7
-  - KP 8
-  - KP 9
+  - '7'
+  - '8'
+  - '9'
   - +
   - ^
   - '&'
@@ -100,9 +100,9 @@ layers:
   - (
   - )
   - /
-  - KP 4
-  - KP 5
-  - KP 6
+  - '4'
+  - '5'
+  - '6'
   - '*'
   - {t: ▽, type: trans}
   - _
@@ -111,10 +111,10 @@ layers:
   - '#'
   - $
   - '%'
-  - {t: KP 0, h: LEFT SHIFT}
-  - KP 1
-  - KP 2
-  - KP 3
+  - {t: '0', h: LEFT SHIFT}
+  - '1'
+  - '2'
+  - '3'
   - .
   - '='
   - ':'
