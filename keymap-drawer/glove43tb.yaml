@@ -309,8 +309,6 @@ layers:
   - {t: ▽, type: trans}
   - BT CLR ALL
 combos:
-- p: [11, 12]
-  k: TAB
 - p: [12, 13]
   k: Sft+TAB
 - p: [11, 10]
