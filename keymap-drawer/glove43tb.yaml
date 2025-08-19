@@ -104,7 +104,7 @@ layers:
   - KP 5
   - KP 6
   - '*'
-  - '~'
+  - {t: ▽, type: trans}
   - _
   - '!'
   - '@'
@@ -123,7 +123,7 @@ layers:
   - '{'
   - '}'
   - \
-  - {t: ▽, type: trans}
+  - '~'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
