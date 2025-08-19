@@ -79,9 +79,9 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - F11
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - LCTRL
+  - LEFT WIN
+  - LEFT ALT
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
