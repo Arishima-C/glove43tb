@@ -83,7 +83,7 @@
 &kp LCTRL         &kp LEFT_WIN  &kp LEFT_ALT  &lt_to_layer_0 6 TAB  &lt 2 SPACE  &lt_to_layer_0 3 LA(GRAVE)      &kp BACKSPACE  &lt 1 ENTER                             &kp DEL
             >;
 
-            sensor-bindings = <&scroll_up_down>;
+            sensor-bindings = <&inc_dec_kp PAGE_UP PAGE_DOWN>;
         };
 
         FUNCTION {
@@ -93,6 +93,8 @@
 &mt LEFT_SHIFT KP_NUMBER_0  &kp KP_N1        &kp KP_N2     &kp KP_N3        &trans  &trans      &trans         &trans  &trans  &trans  &trans  &kp F11
 &kp LCTRL                   &kp LEFT_WIN     &kp LEFT_ALT  &trans           &trans  &trans      &kp BACKSPACE  &trans                          &kp F12
             >;
+
+            sensor-bindings = <&inc_dec_kp PAGE_UP PAGE_DOWN>;
         };
 
         NUM {
@@ -102,6 +104,8 @@
 &mt LEFT_SHIFT NUMBER_0  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp PERIOD    &kp EQUAL      &kp COLON       &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LESS_THAN  &kp GREATER_THAN      &kp BACKSLASH
 &kp TILDE                &trans        &trans        &trans        &trans        &trans         &kp BACKSPACE   &kp ENTER                                                                 &kp PIPE
             >;
+
+            sensor-bindings = <&inc_dec_kp PAGE_UP PAGE_DOWN>;
         };
 
         ARROW {
@@ -112,7 +116,7 @@
 &trans          &trans                  &trans          &trans                   &trans   &trans      &trans           &trans                          &trans
             >;
 
-            sensor-bindings = <&scroll_up_down>;
+            sensor-bindings = <&inc_dec_kp PAGE_UP PAGE_DOWN>;
         };
 
         MOUSE {
@@ -123,7 +127,7 @@
 &kp LCTRL       &kp LEFT_WIN  &kp LEFT_ALT  &kp TAB  &kp SPACE  &kp LA(GRAVE)      &kp BACKSPACE  &kp ENTER                                &trans
             >;
 
-            sensor-bindings = <&scroll_up_down>;
+            sensor-bindings = <&inc_dec_kp PAGE_UP PAGE_DOWN>;
         };
 
         SCROLL {
