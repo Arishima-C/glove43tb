@@ -61,7 +61,7 @@ layers:
   - KP 6
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - F13
+  - VOLUME UP
   - F6
   - F7
   - F8
@@ -73,7 +73,7 @@ layers:
   - KP 3
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - VOLUME DOWN
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
